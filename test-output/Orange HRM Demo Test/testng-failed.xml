@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Orange HRM Demo Test]">
+  <test thread-count="5" name="Sanity Test(failed)">
+    <classes>
+      <class name="com.testcases.HomePageTest">
+        <methods>
+          <include name="AdminPageTest"/>
+          <include name="notificationPageTest"/>
+          <include name="setUp"/>
+          <include name="jobTitlePageTest"/>
+          <include name="configurationPageTest"/>
+          <include name="verifyHomepageTitle"/>
+          <include name="jobPageTest"/>
+          <include name="tearDown"/>
+          <include name="qualificationPageTest"/>
+          <include name="organizationPageTest"/>
+        </methods>
+      </class> <!-- com.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Sanity Test(failed) -->
+</suite> <!-- Failed suite [Orange HRM Demo Test] -->

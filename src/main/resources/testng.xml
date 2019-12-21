@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Orange HRM Demo Test">
+
+	<listeners>
+		<listener class-name="com.util.ExtentReport"></listener>
+
+	</listeners>
+
+	<test name="Regression Test">
+		<classes>
+			<class name="com.testcases.LoginPageTest" />
+			<class name="com.testcases.HomePageTest" />
+			<class name="com.testcases.UserManagementPageTest" />
+
+		</classes>
+	</test>
+</suite>
